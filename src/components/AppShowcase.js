@@ -37,7 +37,7 @@ const AppShowcase = () => {
   return (
     <section id="app-showcase" className="section app-showcase">
       <div className="container">
-        <h2 className="section-title">Slk fungerer Fritim</h2>
+        <h2 className="section-title">Slik fungerer Fritim</h2>
         <p className="section-subtitle">
           Fritim er en plattform som frigjør tid for familier, skaper muligheter for ungdom og bygger fellesskap i idrett og organisasjoner. Vi kobler sammen klubber, foreldre, frivillige og støttespillere i én løsning
         </p>
