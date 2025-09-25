@@ -36,45 +36,33 @@ const Contact = () => {
   return (
     <section id="contact" className="section contact">
       <div className="container">
-        <h2 className="section-title">Get in Touch</h2>
+        <h2 className="section-title">Ta Kontakt</h2>
         <p className="section-subtitle">
-          Ready to transform your business with our innovative app? 
-          Let's discuss how we can help you achieve your goals.
+          Vi er ivrig på å høre fra deg. Hvis du har spørsmål, eller ønsker å komme i kontakt, kan du kontakte oss på e-post eller telefon.
         </p>
         
         <div className="contact-content">
           <div className="contact-info">
-            <h3>Let's Start a Conversation</h3>
+            <h3>Kontaktinformasjon</h3>
             <p>
-              We're excited to hear about your project and discuss how our app 
-              can help your business grow. Reach out to us and let's create 
-              something amazing together.
+              Vi er ivrig på å høre fra deg. Hvis du har spørsmål, eller ønsker å komme i kontakt, kan du kontakte oss på e-post eller telefon.
             </p>
             
             <div style={{ marginTop: '2rem' }}>
-              <h4 style={{ color: '#667eea', marginBottom: '1rem' }}>Contact Information</h4>
+              <h4 style={{ color: '#667eea', marginBottom: '1rem' }}>Kontaktinformasjon</h4>
               <div style={{ marginBottom: '1rem' }}>
-                <strong>Email:</strong> contact@fritim.no
-              </div>
-              <div style={{ marginBottom: '1rem' }}>
-                <strong>Phone:</strong> +47 XXX XX XXX
+                <strong>Email:</strong> hei@fritim.no
               </div>
               <div style={{ marginBottom: '1rem' }}>
                 <strong>Address:</strong> Oslo, Norway
               </div>
-            </div>
-            
-            <div style={{ marginTop: '2rem' }}>
-              <h4 style={{ color: '#667eea', marginBottom: '1rem' }}>Business Hours</h4>
-              <div style={{ marginBottom: '0.5rem' }}>Monday - Friday: 9:00 AM - 6:00 PM</div>
-              <div>Saturday: 10:00 AM - 4:00 PM</div>
             </div>
           </div>
           
           <div className="contact-form">
             <form onSubmit={handleSubmit}>
               <div className="form-group">
-                <label htmlFor="name">Full Name *</label>
+                <label htmlFor="name">Fullt Navn *</label>
                 <input
                   type="text"
                   id="name"
@@ -86,7 +74,7 @@ const Contact = () => {
               </div>
               
               <div className="form-group">
-                <label htmlFor="email">Email Address *</label>
+                <label htmlFor="email">Email Addresse *</label>
                 <input
                   type="email"
                   id="email"
@@ -98,7 +86,7 @@ const Contact = () => {
               </div>
               
               <div className="form-group">
-                <label htmlFor="company">Company</label>
+                <label htmlFor="company">Klubb / Idrettslag</label>
                 <input
                   type="text"
                   id="company"
@@ -109,13 +97,13 @@ const Contact = () => {
               </div>
               
               <div className="form-group">
-                <label htmlFor="message">Message *</label>
+                <label htmlFor="message">Melding *</label>
                 <textarea
                   id="message"
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
-                  placeholder="Tell us about your project and how we can help..."
+                  placeholder="Skriv inn meldingen din her..."
                   required
                 />
               </div>
@@ -126,7 +114,7 @@ const Contact = () => {
                 disabled={isSubmitting}
                 style={{ width: '100%' }}
               >
-                {isSubmitting ? 'Sending...' : 'Send Message'}
+                {isSubmitting ? 'Sender...' : 'Send Melding'}
               </button>
               
               {submitStatus === 'success' && (
@@ -138,7 +126,7 @@ const Contact = () => {
                   borderRadius: '8px',
                   textAlign: 'center'
                 }}>
-                  Thank you! Your message has been sent successfully.
+                  Takk! Meldingen din er sendt.
                 </div>
               )}
             </form>
