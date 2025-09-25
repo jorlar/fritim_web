@@ -24,8 +24,8 @@ const Footer = () => {
             <h4 style={{ color: '#667eea', marginBottom: '1rem' }}>Følg oss</h4>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
               <a href="#" style={{ color: 'white', textDecoration: 'none', opacity: 0.8 }}>LinkedIn</a>
-              <a href="#" style={{ color: 'white', textDecoration: 'none', opacity: 0.8 }}>Twitter</a>
-              <a href="#" style={{ color: 'white', textDecoration: 'none', opacity: 0.8 }}>GitHub</a>
+              <a href="#" style={{ color: 'white', textDecoration: 'none', opacity: 0.8 }}>Facebook</a>
+              <a href="#" style={{ color: 'white', textDecoration: 'none', opacity: 0.8 }}>Instagram</a>
             </div>
           </div>
           
