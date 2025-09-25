@@ -63,7 +63,7 @@ const AppShowcase = () => {
           borderRadius: '12px',
           boxShadow: '0 5px 20px rgba(0, 0, 0, 0.08)'
         }}>
-          <h3 style={{ marginBottom: '2rem', color: '#1a1a1a' }}>App Screenshots</h3>
+          <h3 style={{ marginBottom: '2rem', color: '#1a1a1a' }}>Utdrag av appen vår</h3>
           <div style={{ 
             display: 'grid', 
             gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', 
