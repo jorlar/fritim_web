@@ -31,10 +31,10 @@ const AboutUs = () => {
   return (
     <section id="about-us" className="section about-us">
       <div className="container">
-        <h2 className="section-title">Meet Our Team</h2>
+        <h2 className="section-title">Fra dugnadskaos til fellesskap – derfor startet vi Fritim</h2>
         <p className="section-subtitle">
-          We are a passionate team of innovators, developers, and designers 
-          dedicated to creating exceptional digital experiences that make a difference.
+          Fritim ble startet av Tom Gjerde og teamet hans med et enkelt mål: å gjøre dugnaden rettferdig og håndterbar for alle.
+Vi så hvor mye tid familier bruker på oppgaver som ofte kolliderer med jobb, fritid og andre forpliktelser. <br /> Samtidig så vi ungdommer som ønsker å bidra og tjene egne penger – men som mangler en enkel vei inn.
         </p>
         
         <div className="team-grid">

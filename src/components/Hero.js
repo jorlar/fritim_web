@@ -11,24 +11,22 @@ const Hero = () => {
   return (
     <section id="hero" className="hero">
       <div className="hero-content">
-        <h1>Innovation in Motion</h1>
+        <h1>Vi gjør dugnad enklere, rettferdigere og mer inkluderende</h1>
         <p>
-          Fritim AS is developing cutting-edge mobile applications that transform 
-          the way businesses operate. Join us on our journey to revolutionize 
-          digital experiences.
+          Fritim gir barn muligheten til å være med på laget, selv når familien har dårlig råd. Det gir trenere mer tid til idretten, og foreldre en enklere hverdag. Det handler om fellesskap, inkludering og overskudd til det som betyr mest – idrettsgleden.
         </p>
         <div className="hero-buttons">
           <button 
             className="btn btn-primary"
             onClick={() => scrollToSection('app-showcase')}
           >
-            Discover Our App
+            Vår app
           </button>
           <button 
-            className="btn btn-secondary"
+            className="btn btn-primary"
             onClick={() => scrollToSection('contact')}
           >
-            Get in Touch
+            Kontakt oss
           </button>
         </div>
       </div>
