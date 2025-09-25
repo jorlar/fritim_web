@@ -29,10 +29,10 @@ const Header = () => {
         
         <nav>
           <ul className="nav">
-            <li><a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('hero'); }}>Home</a></li>
+            <li><a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('hero'); }}>Hjem</a></li>
             <li><a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('app-showcase'); }}>App</a></li>
-            <li><a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('about-us'); }}>About</a></li>
-            <li><a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }}>Contact</a></li>
+            <li><a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('about-us'); }}>Om oss</a></li>
+            <li><a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }}>Kontakt</a></li>
           </ul>
         </nav>
         

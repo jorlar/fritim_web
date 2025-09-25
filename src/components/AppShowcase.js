@@ -4,33 +4,33 @@ const AppShowcase = () => {
   const features = [
     {
       icon: '📱',
-      title: 'Mobile-First Design',
-      description: 'Built with modern mobile-first principles to deliver exceptional user experiences across all devices.'
+      title: 'Frikjøp av dugnad',
+      description: 'Foreldre kan kjøpe seg fri fra oppgaver. Da stepper registrerte frivillige inn – og klubben er alltid dekket.'
     },
     {
       icon: '⚡',
-      title: 'Lightning Fast',
-      description: 'Optimized performance ensures your app runs smoothly even under heavy load conditions.'
+      title: 'Fondstøtte',
+      description: 'En del av Fritims inntekter går tilbake til et eget fond som støtter familier som ellers ikke har råd til å delta.'
     },
     {
       icon: '🔒',
-      title: 'Secure & Reliable',
-      description: 'Enterprise-grade security measures protect your data and ensure reliable operation 24/7.'
+      title: 'Kjøp og salg (Gi bort/selg)',
+      description: 'Klubber og foreldre kan enkelt selge eller gi bort sportsutstyr via plattformen. Fritim tar et lite gebyr – resten går rett tilbake til fellesskapet.'
     },
     {
       icon: '🎨',
-      title: 'Beautiful UI/UX',
-      description: 'Thoughtfully designed interfaces that are both functional and visually stunning.'
+      title: 'Dugnadsplanlegger',
+      description: 'Klubbledelsen får oversikt og kan tildele oppgaver rettferdig. Foreldre kan svare med ett klikk: "Kommer" – "Frikjøper" – "Kan ikke".'
     },
     {
       icon: '📊',
-      title: 'Analytics & Insights',
-      description: 'Comprehensive analytics help you understand user behavior and optimize your business strategy.'
+      title: 'Kiosk, cup og arrangement',
+      description: 'Alt på ett sted – betaling, oversikt, oppgjør og administrasjon.'
     },
     {
       icon: '🌐',
       title: 'Cross-Platform',
-      description: 'Seamless experience across iOS, Android, and web platforms with native performance.'
+      description: 'Sømløs integrasjon mot støttesystemer hos idrettskretser, forbund og frivilligportaler.'
     }
   ];
 
