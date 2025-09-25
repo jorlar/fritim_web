@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+  const formRef = useRef(null);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -21,16 +23,27 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false);
+    setSubmitStatus(null);
+
+    try {
+      await emailjs.sendForm(
+        'service_pk0bz5l', // Replace with your EmailJS service ID
+        'template_hamw12d', // Replace with your EmailJS template ID
+        formRef.current,
+        'R_B_JKQLJnXj0kX7u' // Replace with your EmailJS public key
+      );
+
       setSubmitStatus('success');
       setFormData({ name: '', email: '', company: '', message: '' });
       
       // Reset status after 3 seconds
       setTimeout(() => setSubmitStatus(null), 3000);
-    }, 1000);
+    } catch (error) {
+      setSubmitStatus('error');
+      console.error('Error sending email:', error);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -56,7 +69,7 @@ const Contact = () => {
           </div>
           
           <div className="contact-form">
-            <form onSubmit={handleSubmit}>
+            <form ref={formRef} onSubmit={handleSubmit}>
               <div className="form-group">
                 <label htmlFor="name">Fullt Navn *</label>
                 <input
@@ -123,6 +136,19 @@ const Contact = () => {
                   textAlign: 'center'
                 }}>
                   Takk! Meldingen din er sendt.
+                </div>
+              )}
+              
+              {submitStatus === 'error' && (
+                <div style={{ 
+                  marginTop: '1rem', 
+                  padding: '1rem', 
+                  background: '#f8d7da', 
+                  color: '#721c24', 
+                  borderRadius: '8px',
+                  textAlign: 'center'
+                }}>
+                  Beklager, det oppstod en feil ved sending. Prøv igjen eller kontakt oss direkte på hei@fritim.no
                 </div>
               )}
             </form>
