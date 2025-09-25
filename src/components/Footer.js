@@ -32,7 +32,7 @@ const Footer = () => {
           <div>
             <h4 style={{ color: '#667eea', marginBottom: '1rem' }}>Ta kontakt</h4>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-              <span style={{ opacity: 0.8 }}>hei@fritim.no</span>
+              <a href="mailto:hei@fritim.no" style={{ color: 'white', textDecoration: 'none', opacity: 0.8 }}>hei@fritim.no</a>
               <span style={{ opacity: 0.8 }}>Oslo, Norway</span>
             </div>
           </div>
