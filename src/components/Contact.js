@@ -38,18 +38,14 @@ const Contact = () => {
       <div className="container">
         <h2 className="section-title">Ta Kontakt</h2>
         <p className="section-subtitle">
-          Vi er ivrig på å høre fra deg. Hvis du har spørsmål, eller ønsker å komme i kontakt, kan du kontakte oss på e-post eller telefon.
+          Vi er ivrig på å høre fra deg. Hvis du har spørsmål, eller ønsker å komme i kontakt, kan du kontakte oss på e-post eller fyll ut kontaktinformasjonen under.
         </p>
         
         <div className="contact-content">
           <div className="contact-info">
             <h3>Kontaktinformasjon</h3>
-            <p>
-              Vi er ivrig på å høre fra deg. Hvis du har spørsmål, eller ønsker å komme i kontakt, kan du kontakte oss på e-post eller telefon.
-            </p>
             
             <div style={{ marginTop: '2rem' }}>
-              <h4 style={{ color: '#667eea', marginBottom: '1rem' }}>Kontaktinformasjon</h4>
               <div style={{ marginBottom: '1rem' }}>
                 <strong>Email:</strong> hei@fritim.no
               </div>
