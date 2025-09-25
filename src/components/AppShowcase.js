@@ -3,22 +3,22 @@ import React from 'react';
 const AppShowcase = () => {
   const features = [
     {
-      icon: '📱',
+      icon: '📝',
       title: 'Frikjøp av dugnad',
       description: 'Foreldre kan kjøpe seg fri fra oppgaver. Da stepper registrerte frivillige inn – og klubben er alltid dekket.'
     },
     {
-      icon: '⚡',
+      icon: '💰',
       title: 'Fondstøtte',
       description: 'En del av Fritims inntekter går tilbake til et eget fond som støtter familier som ellers ikke har råd til å delta.'
     },
     {
-      icon: '🔒',
+      icon: '💰',
       title: 'Kjøp og salg (Gi bort/selg)',
       description: 'Klubber og foreldre kan enkelt selge eller gi bort sportsutstyr via plattformen. Fritim tar et lite gebyr – resten går rett tilbake til fellesskapet.'
     },
     {
-      icon: '🎨',
+      icon: '📝',
       title: 'Dugnadsplanlegger',
       description: 'Klubbledelsen får oversikt og kan tildele oppgaver rettferdig. Foreldre kan svare med ett klikk: "Kommer" – "Frikjøper" – "Kan ikke".'
     },
