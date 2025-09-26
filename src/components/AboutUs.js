@@ -2,11 +2,11 @@ import React from 'react';
 
 const AboutUs = () => {
   const teamMembers = [
-    {
-      name: 'Tom Gjerde',
-      role: 'CEO & Grunnlegger',
-      image: '/images/team/tom-gjerde.jpeg',
-      bio: 'Grunnlegger av Fritim med visjon om rettferdig dugnad'
+     {
+      name: 'Raymond B. Sundby',
+      role: 'Whats his face?',
+      image: '/images/team/team-member-3.svg',
+      bio: 'Kjapp lten bio om Raymond her'
     },
     {
       name: 'Jørn W. Larsen',
@@ -14,12 +14,12 @@ const AboutUs = () => {
       image: '/images/team/jorn-larsen.png',
       bio: 'Teknisk arkitekt med lidenskap for skalerbare løsninger'
     },
-    {
-      name: 'Raymond B. Sundby',
-      role: 'Whats his face?',
-      image: '/images/team/team-member-3.svg',
-      bio: 'Kjapp lten bio om Raymond her'
-    }
+     {
+      name: 'Tom Gjerde',
+      role: 'CEO & Grunnlegger',
+      image: '/images/team/tom-gjerde.jpeg',
+      bio: 'Grunnlegger av Fritim med visjon om rettferdig dugnad'
+    },
   ];
 
   return (
