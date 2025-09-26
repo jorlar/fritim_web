@@ -5,12 +5,12 @@ const AppShowcase = () => {
     {
       icon: '📝',
       title: 'Frikjøp av dugnad',
-      description: 'Foreldre kan kjøpe seg fri fra oppgaver. Da stepper registrerte frivillige inn – og klubben er alltid dekket.'
+      description: 'Foreldre kan kjøpe seg fri fra oppgaver dersom de ikke har anledning til å delta. Da stepper registrerte frivillige inn – og klubben er alltid dekket.'
     },
     {
       icon: '💰',
       title: 'Fondstøtte',
-      description: 'En del av Fritims inntekter går tilbake til et eget fond som støtter familier som ellers ikke har råd til å delta.'
+      description: 'En del av Fritims inntekter går tilbake til et eget fond som støtter familier som ellers ikke har råd til å delta, eller et medlem trenger støtte til nye fotballsko.'
     },
     {
       icon: '💰',
