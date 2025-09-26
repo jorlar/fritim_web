@@ -268,6 +268,18 @@ body {
   color: #1a1a1a;
 }
 
+.li-semibold {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #1a1a1a;
+  font-weight: 400;
+  text-align: left;
+}
+
+.li-semibold-title {
+  font-weight: 600;
+}
+
 /* Contact */
 .contact {
   background: #f8f9fa;

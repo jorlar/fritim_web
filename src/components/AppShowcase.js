@@ -37,6 +37,7 @@ const AppShowcase = () => {
   return (
     <section id="app-showcase" className="section app-showcase">
       <div className="container">
+        {/*
         <h2 className="section-title">Slik fungerer Fritim</h2>
         <p className="section-subtitle">
           Fritim er en plattform som frigjør tid for familier, skaper muligheter for ungdom og bygger fellesskap i idrett og organisasjoner. Vi kobler sammen klubber, foreldre, frivillige og støttespillere i én løsning
@@ -53,7 +54,7 @@ const AppShowcase = () => {
             </div>
           ))}
         </div>
-        
+        */}
         {/* App Screenshots Placeholder */}
         <div style={{ 
           marginTop: '4rem', 
@@ -63,6 +64,7 @@ const AppShowcase = () => {
           borderRadius: '12px',
           boxShadow: '0 5px 20px rgba(0, 0, 0, 0.08)'
         }}>
+          {/*
           <h3 style={{ marginBottom: '2rem', color: '#1a1a1a' }}>Utdrag av appen vår</h3>
           <div style={{ 
             display: 'grid', 
@@ -110,6 +112,25 @@ const AppShowcase = () => {
               📱 App Screen 3
             </div>
           </div>
+          */}
+          <h2 className="section-title">Hva Fritim Står For</h2>
+        <p className="section-subtitle">
+        Fritim er ikke laget for å erstatte fellesskapet eller ta over idretten og frivilligheten. Vi er et supplement – et verktøy som gjør hverdagen enklere for både klubber, foreldre og frivillige.
+        </p>
+        <ul style={{ 
+          textAlign: 'left',
+          maxWidth: '800px',
+          margin: '0 auto',
+          listStyle: 'none',
+          padding: 0
+        }}>
+          <li className='li-semibold'><span className='li-semibold-title'>Rettferdighet:</span> Dugnad og oppgaver fordeles på en måte som alle kan håndtere. Ingen skal falle utenfor.</li>
+          <li className='li-semibold'><span className='li-semibold-title'>Inkludering:</span> Barn skal kunne være med selv om familien har dårlig råd – derfor gir vi tilbake gjennom et eget fond.</li>
+          <li className='li-semibold'><span className='li-semibold-title'>Fellesskap:</span> Vi bygger løsninger som styrker klubbene, ikke som tar plass fra dem.</li>
+          <li className='li-semibold'><span className='li-semibold-title'>Enklere hverdag:</span> Mindre tid på kaos og administrasjon – mer tid til idrettsglede.</li>
+        </ul>
+        <br />
+        <p className="section-subtitle">Fritim handler ikke om å «ha alt» – men om å knytte sammen det som allerede finnes i idrett og frivillighet, på en enklere og mer rettferdig måte.</p>
         </div>
       </div>
     </section>

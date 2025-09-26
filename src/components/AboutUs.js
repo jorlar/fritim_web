@@ -30,7 +30,7 @@ const AboutUs = () => {
           Fritim ble startet av Tom Gjerde og teamet hans med et enkelt mål: å gjøre dugnaden rettferdig og håndterbar for alle.
 Vi så hvor mye tid familier bruker på oppgaver som ofte kolliderer med jobb, fritid og andre forpliktelser. <br /> Samtidig så vi ungdommer som ønsker å bidra og tjene egne penger – men som mangler en enkel vei inn.
         </p>
-        
+        {/* 
         <div className="team-grid">
           {teamMembers.map((member, index) => (
             <div key={index} className="team-member">
@@ -52,8 +52,9 @@ Vi så hvor mye tid familier bruker på oppgaver som ofte kolliderer med jobb, f
             </div>
           ))}
         </div>
-        
+        */}
         {/* Company Story */}
+        {/* 
         <div style={{ 
           marginTop: '4rem', 
           textAlign: 'center',
@@ -88,6 +89,7 @@ Vi så hvor mye tid familier bruker på oppgaver som ofte kolliderer med jobb, f
            </ul>
           
         </div>
+        */}
       </div>
     </section>
   );
